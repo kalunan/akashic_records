@@ -1,0 +1,73 @@
+html {
+    font-family: "Tahoma";
+}
+
+.logo {
+    width: 150px;
+}
+
+.content {
+    text-align: center;
+}
+
+.subheading {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.subheading2 {
+    font-size: 18px;
+}
+
+.all-box {
+    /* to center all boxes */
+    text-align: center;
+}
+
+.portfolio-box {
+    /* 33% to have 3 per row, but slightly smaller */
+    width: 30%;
+
+    /* para ang mga box kay mag sunod2x sa isa ka linya,
+     sample:
+     [ ] [ ] [ ]
+     
+     nya ang mulapas sa screen kay munaog sa ubos
+     
+     sample:
+     [ ] [ ] [ ]
+     [ ] [ ]
+     */
+    display: inline-block;
+
+    /* gap between boxes */
+    margin: 12px;
+
+    border-width: 2px;
+    border-color: gray;
+    border-style: solid;
+}
+
+.portfolio-image {
+    margin: 8px;
+    
+    /* para masud cya sa box */
+    width: 95%;
+}
+
+.contact-info {
+    border-top-width: 1px;
+    border-top-color: gray;
+    border-top-style: solid;
+
+    margin-top: 24px;
+}
+
+.name {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.email {
+    font-size: 16px;
+}
